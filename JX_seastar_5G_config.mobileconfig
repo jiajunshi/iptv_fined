@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>DisableAssociationMACRandomization</key>
+			<false/>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>Password</key>
+			<string>mochi2758</string>
+			<key>PayloadDescription</key>
+			<string>Configures Wi-Fi settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.864B6D3A-61A5-4407-8A5B-58FEEFCF94F4</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>864B6D3A-61A5-4407-8A5B-58FEEFCF94F4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyServer</key>
+			<string>192.168.50.171</string>
+			<key>ProxyServerPort</key>
+			<integer>1082</integer>
+			<key>ProxyType</key>
+			<string>Manual</string>
+			<key>SSID_STR</key>
+			<string>JX_seastar_5G</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Untitled</string>
+	<key>PayloadIdentifier</key>
+	<string>Shis-MacBook-Pro.324AAA91-D7F6-4134-B0BD-F2E8BDFCDAA2</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>F0DECE0F-9CC9-434D-A8A6-E50E77991B3B</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
