@@ -120,14 +120,25 @@ Proxy:
 # 配置开始
 # Shadowsocks 配置范本
 # 第一种配置
-- name: "Tecent-cloud_1"
+- name: "Tecentcloud1"
   type: ss
   server: 119.91.216.193
   port: 9635      
   cipher: aes-256-gcm
   password: "urbujodan"
   udp: true
- 
+
+
+- name: "Tecentcloud2"
+  type: ss
+  server: 119.91.216.193
+  port: 9635
+  cipher: aes-256-gcm
+  password: "urbujodan"
+  plugin: obfs
+  plugin-opts:                 
+    mode: tls 
+    # host: bing.com                  #  伪装
 ###############################################################配置分割线
 
 # 代理组策略
@@ -137,7 +148,8 @@ Proxy Group:
 - name: "自动节点选择"
   type: url-test
   proxies:
-    - "Tecent-cloud_1"
+    - "Tecentcloud1"
+    - "Tecentcloud2"
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
@@ -146,7 +158,8 @@ Proxy Group:
   type: select
   proxies:
     - "自动节点选择"
-    - "Tecent-cloud_1"
+    - "Tecentcloud1"
+    - "Tecentcloud2"
 # 白名单模式 PROXY，黑名单模式 DIRECT
 - name: "Final"
   type: select
@@ -164,13 +177,15 @@ Proxy Group:
   type: select
   proxies:
     - "PROXY"
-    - "Tecent-cloud_1"
+    - "Tecentcloud1"
+    - "Tecentcloud2"
 # 大陆流媒体面向港澳台限定服务
 - name: "HKMTMedia"
   type: select
   proxies:
     - "DIRECT"
-    - "Tecent-cloud_1"
+    - "Tecentcloud1"
+    - "Tecentcloud2"
 # 运营商及声名狼藉网站劫持
 - name: "Hijacking"
   type: select
