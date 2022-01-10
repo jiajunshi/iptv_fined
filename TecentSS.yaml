@@ -1259,7 +1259,7 @@ rules:
 - DOMAIN-SUFFIX,xiami.com,DIRECT
 - DOMAIN-SUFFIX,xiami.net,DIRECT
 # > Baidu
-- DOMAIN-SUFFIX,baidu.com,DIRECT
+###- DOMAIN-SUFFIX,baidu.com,DIRECT
 - DOMAIN-SUFFIX,baidubcr.com,DIRECT
 - DOMAIN-SUFFIX,bdstatic.com,DIRECT
 - DOMAIN-SUFFIX,yunjiasu-cdn.net,DIRECT
