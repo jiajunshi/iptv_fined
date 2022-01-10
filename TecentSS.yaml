@@ -126,7 +126,7 @@ Proxy:
   port: 9635      
   cipher: aes-256-gcm
   password: "urbujodan"
-  # udp: true                                #默认不开启
+  udp: true
  
 ###############################################################配置分割线
 
