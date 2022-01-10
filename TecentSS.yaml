@@ -128,7 +128,7 @@ proxies:
   port: 9635
   cipher: aes-256-gcm
   password: "urbujodan"
-
+  udp: true
 
 - name: "Tecentcloud2"
   type: ss
