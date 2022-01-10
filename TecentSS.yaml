@@ -52,7 +52,8 @@ cfw-bypass:
 cfw-latency-timeout: 5000
 
 # 代理节点
-Proxy:
+#Proxy:
+proxies:
 ###############################################################配置分割线
 # Shadowsocks 支持的加密方式:
 #   aes-128-gcm aes-192-gcm aes-256-gcm
@@ -141,8 +142,8 @@ Proxy:
 ###############################################################配置分割线
 
 # 代理组策略
-Proxy Group:
-
+#Proxy Group:
+proxy-groups:
 # url-test 通过指定的 URL 测试并选择延迟最低的节点
 - name: "自动节点选择"
   type: url-test
@@ -193,7 +194,8 @@ Proxy Group:
     - "DIRECT"
 
 # 规则
-Rule:
+#Rule:
+rules:
 # Unbreak
 # > Google
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
